@@ -8738,7 +8738,8 @@ var PostLink = function PostLink(props) {
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/post?title=".concat(props.title),
+    href: "/p/[id]",
+    as: "/p/".concat(props.title),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -8774,6 +8775,7 @@ function Blog() {
     __self: this
   }, __jsx(PostLink, {
     title: "Hello Next.js",
+    id: "0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -8781,6 +8783,7 @@ function Blog() {
     __self: this
   }), __jsx(PostLink, {
     title: "Learn Next.js is awesome",
+    id: "1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -8788,6 +8791,7 @@ function Blog() {
     __self: this
   }), __jsx(PostLink, {
     title: "Deploy apps with Zeit",
+    id: "9",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -8798,7 +8802,7 @@ function Blog() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!*****************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5Chello-next%5Cpages%5Cindex.js ***!
   \*****************************************************************************************************/
@@ -8821,5 +8825,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

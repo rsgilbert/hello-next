@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2024,7 +2024,8 @@ const PostLink = props => __jsx("li", {
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-  href: `/post?title=${props.title}`,
+  href: `/p/[id]`,
+  as: `/p/${props.title}`,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
@@ -2059,6 +2060,7 @@ function Blog() {
     __self: this
   }, __jsx(PostLink, {
     title: "Hello Next.js",
+    id: "0",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
@@ -2066,6 +2068,7 @@ function Blog() {
     __self: this
   }), __jsx(PostLink, {
     title: "Learn Next.js is awesome",
+    id: "1",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
@@ -2073,6 +2076,7 @@ function Blog() {
     __self: this
   }), __jsx(PostLink, {
     title: "Deploy apps with Zeit",
+    id: "9",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -2083,7 +2087,7 @@ function Blog() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
