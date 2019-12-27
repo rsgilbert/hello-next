@@ -1,13 +1,12 @@
 import Link from 'next/link'
-import Header from '../components/Header'
+import Layout from '../components/MyLayout'
 
 const Index = () => (
-    <div>
-        <Header />
+    <Layout>
         <p>Hello Next.js</p>
         <Link href="/about">
             <a  title="About the Greate Gilbert">About the Great Gilbert</a>
         </Link>
-    </div>
+    </Layout>
 )
 export default Index
